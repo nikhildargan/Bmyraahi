@@ -10,6 +10,9 @@ class BookingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_booking)
+
+        val bookingTabAdapter = BookingTabAdapter(supportFragmentManager)
+        viewpagerBookings.adapter= bookingTabAdapter
         tabLayout.setupWithViewPager(viewpagerBookings)
     }
 }

@@ -9,7 +9,9 @@ class PaymentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_booking)
+        setContentView(R.layout.activity_payment)
+        val paymentTabAdapter = PaymentTabAdapter(supportFragmentManager)
+        viewpagerPayment.adapter = paymentTabAdapter
         tabLayout.setupWithViewPager(viewpagerPayment)
     }
 }

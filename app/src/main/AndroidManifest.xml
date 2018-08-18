@@ -26,7 +26,11 @@
         <activity
             android:name=".payments.PaymentDetailsActivity"
             android:label="@string/title_activity_payment_details"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".payments.PaymentActivity"
+            android:label="@string/title_activity_payment_details"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
