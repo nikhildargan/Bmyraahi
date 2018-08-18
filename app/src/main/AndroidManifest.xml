@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".onboarding.SplashActivity"></activity>
+        <activity android:name=".onboarding.SplashActivity" />
         <activity android:name=".onboarding.GetOtpActivity" />
         <activity android:name=".onboarding.MenuActivity" />
         <activity android:name=".onboarding.VerifyOtpActivity" />
@@ -21,7 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".bookings.BookingActivity"></activity>
+        <activity android:name=".bookings.BookingActivity" />
+        <activity android:name=".bookings.BookingDetailsActivity" />
+        <activity
+            android:name=".payments.PaymentDetailsActivity"
+            android:label="@string/title_activity_payment_details"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
