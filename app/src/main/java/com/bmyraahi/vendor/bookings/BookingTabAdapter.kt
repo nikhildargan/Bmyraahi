@@ -26,8 +26,8 @@ class BookingTabAdapter (fragmentManager: FragmentManager) : FragmentPagerAdapte
 
         override fun getPageTitle(position: Int): CharSequence {
             return when (position) {
-                0 -> "New Bookings"
-                1 -> "All Bookings"
+                0 -> "NEW BOOKINGS"
+                1 -> "ALL BOOKINGS"
 
                 else -> ({
                 }).toString()
