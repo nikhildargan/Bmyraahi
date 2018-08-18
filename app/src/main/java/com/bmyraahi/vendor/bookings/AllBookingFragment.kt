@@ -9,6 +9,9 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.bmyraahi.vendor.R
+import kotlinx.android.synthetic.main.fragment_all_booking.*
+import kotlinx.android.synthetic.main.fragment_all_booking.view.*
+import kotlinx.android.synthetic.main.fragment_new_booking.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,6 +32,7 @@ class AllBookingFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
     private var listener: OnFragmentInteractionListener? = null
+    var items:ArrayList<BookingItem> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,7 +45,11 @@ class AllBookingFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_all_booking, container, false)
+        val view = inflater.inflate(R.layout.fragment_all_booking, container, false)
+        items.add(BookingItem())
+        items.add(BookingItem())
+        view.rvAllBookings.adapter= AllBookingAdapter(items)
+        return view
     }
 
 

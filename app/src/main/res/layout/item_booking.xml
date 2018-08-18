@@ -21,7 +21,7 @@
         android:textSize="10.3sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="ASDF7765728937" />
+        android:text="ASDF7765728937" />
 
     <TextView
         android:id="@+id/textView22"
@@ -37,7 +37,7 @@
         android:textSize="10.3sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="23 Sep, 2018" />
+        android:text="23 Sep, 2018" />
 
     <View
         android:id="@+id/view5"
@@ -63,7 +63,7 @@
         android:textSize="12.7sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view5"
-        tools:text="Vidyasagar Gautam" />
+        android:text="Vidyasagar Gautam" />
 
     <TextView
         android:id="@+id/textView23"
@@ -78,7 +78,7 @@
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView21"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="9765567823" />
+        android:text="9765567823" />
 
     <TextView
         android:id="@+id/textView24"
@@ -94,7 +94,7 @@
         android:textSize="12.7sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21"
-        tools:text="Chittorgarh fort - English" />
+        android:text="Chittorgarh fort - English" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
         android:textSize="12.7sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView24"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="12:00PM" />
+        android:text="12:00PM" />
 
     <TextView
         android:id="@+id/textView26"
@@ -123,7 +123,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView24"
         app:layout_constraintVertical_bias="0.652"
-        tools:text="800" />
+        android:text="800" />
 
     <Button
         android:id="@+id/button3"

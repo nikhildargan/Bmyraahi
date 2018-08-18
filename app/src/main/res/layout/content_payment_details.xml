@@ -36,7 +36,7 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/view4"
         app:layout_constraintTop_toTopOf="@+id/view4"
-        tools:text="Half Day Camel Safari" />
+        android:text="Half Day Camel Safari" />
 
     <TextView
         android:id="@+id/textView10"
@@ -52,7 +52,7 @@
         android:textSize="10.3sp"
         app:layout_constraintStart_toStartOf="@+id/view4"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:text="ASDF7765728937" />
+        android:text="ASDF7765728937" />
 
     <TextView
         android:id="@+id/textView9"
@@ -173,5 +173,5 @@
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="@+id/view4"
         app:layout_constraintTop_toBottomOf="@+id/textView19"
-        tools:text="Nothing in case of pending payments" />
+        android:text="Nothing in case of pending payments" />
 </android.support.constraint.ConstraintLayout>

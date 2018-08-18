@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="@+id/rlLogoGradient"
         app:layout_constraintStart_toStartOf="@+id/rlLogoGradient"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:text="BMR PARTNER" />
+        android:text="BMR PARTNER" />
 
     <ImageView
         android:id="@+id/imageView4"
