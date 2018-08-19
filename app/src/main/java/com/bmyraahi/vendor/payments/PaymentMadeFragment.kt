@@ -1,13 +1,20 @@
 package com.bmyraahi.vendor.payments
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bmyraahi.vendor.OnItemClickListener
 
 import com.bmyraahi.vendor.R
+import com.bmyraahi.vendor.bookings.BookingItem
+import com.bmyraahi.vendor.bookings.NewBookingAdapter
+import com.bmyraahi.vendor.home.addOnItemClickListener
+import kotlinx.android.synthetic.main.fragment_new_booking.view.*
+import kotlinx.android.synthetic.main.fragment_payment_made.view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,6 +31,7 @@ class PaymentMadeFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    var items: ArrayList<PaymentItem> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +44,17 @@ class PaymentMadeFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_payment_made2, container, false)
+        val view = inflater.inflate(R.layout.fragment_payment_made, container, false)
+        items.add(PaymentItem())
+        items.add(PaymentItem())
+        view.rvPaymentMade.adapter = PaymentMadeAdapter(items)
+
+        view.rvPaymentMade.addOnItemClickListener(object : OnItemClickListener {
+            override fun onItemClicked(position: Int, view: View) {
+                startActivity(Intent(context,PaymentDetailsActivity::class.java))
+            }
+        })
+        return view
     }
 
 
