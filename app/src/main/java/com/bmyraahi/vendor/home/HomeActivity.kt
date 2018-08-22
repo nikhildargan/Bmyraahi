@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import com.bmyraahi.vendor.OnItemClickListener
 import com.bmyraahi.vendor.R
+import com.bmyraahi.vendor.account.ProfileActivity
 import com.bmyraahi.vendor.bookings.BookingActivity
 import com.bmyraahi.vendor.payments.PaymentActivity
 import kotlinx.android.synthetic.main.activity_home.*
@@ -32,7 +33,7 @@ class HomeActivity : AppCompatActivity() {
                     6 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
                     7 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
                     8 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
-                    9 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
+                    9 -> launcherIntent = Intent(this@HomeActivity, ProfileActivity::class.java)
                     else -> {
                         launcherIntent = Intent(this@HomeActivity, BookingActivity::class.java)
                     }
