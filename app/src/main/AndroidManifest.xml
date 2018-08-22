@@ -32,7 +32,8 @@
             android:label="@string/title_activity_payment_details"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".account.ProfileActivity" />
-        <activity android:name=".account.EditProfileActivity"></activity>
+        <activity android:name=".account.EditProfileActivity" />
+        <activity android:name=".blockInventory.BlockedActivity"></activity>
     </application>
 
 </manifest>

@@ -34,7 +34,7 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/view7"
         app:layout_constraintTop_toTopOf="@+id/view7"
-        tools:text="Edit Profile" />
+        android:text="Edit Profile" />
 
     <EditText
         android:id="@+id/editText6"

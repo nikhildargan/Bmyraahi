@@ -72,7 +72,7 @@
         android:textSize="12.7sp"
         app:layout_constraintStart_toStartOf="@+id/view6"
         app:layout_constraintTop_toBottomOf="@+id/textView28"
-        tools:text="vendor @service.com" />
+        android:text="vendor @service.com" />
 
     <TextView
         android:id="@+id/textView30"
@@ -86,7 +86,7 @@
         android:textSize="12.7sp"
         app:layout_constraintStart_toStartOf="@+id/textView29"
         app:layout_constraintTop_toBottomOf="@+id/textView29"
-        tools:text="9821234558" />
+        android:text="9821234558" />
 
     <Button
         android:id="@+id/btnEdit"
