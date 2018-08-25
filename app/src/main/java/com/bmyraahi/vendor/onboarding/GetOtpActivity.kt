@@ -14,8 +14,33 @@ class GetOtpActivity : AppCompatActivity() {
 
         btnGetOtp.setOnClickListener {
 
-            val intent = Intent(this@GetOtpActivity, VerifyOtpActivity::class.java)
-            startActivity(intent)
+            if(validateMobile())
+            {
+                requestOtp()
+            }
         }
+
+
+    }
+
+    private fun requestOtp() {
+        val intent = Intent(this@GetOtpActivity, VerifyOtpActivity::class.java)
+        startActivity(intent)
+
+
+    }
+
+
+    private fun validateMobile(): Boolean {
+        if (etMobile.getText().toString().trim({ it <= ' ' }).isEmpty()) {
+            etMobile.setError("Please enter mobile number")
+            etMobile.requestFocus()
+            return false
+        } else if (etMobile.getText().toString().trim({ it <= ' ' }).length < 10) {
+            etMobile.setError("Please Enter 10 digits mobile number without country code.")
+            etMobile.requestFocus()
+            return false
+        }
+        return true
     }
 }
