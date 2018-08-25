@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.bmyraahi.vendor.BmrConstants
 import com.bmyraahi.vendor.BmrConstants.KEY_IS_LOGIN
+import com.bmyraahi.vendor.BmrConstants.KEY_MOBILE
 import com.bmyraahi.vendor.BmrConstants.KEY_TOKEN
 import com.bmyraahi.vendor.R
 import com.bmyraahi.vendor.network.ApiUrl
@@ -32,7 +33,7 @@ class VerifyOtpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_verify_otp)
         prefs = defaultPrefs(this@VerifyOtpActivity)
         intent?.let {
-            mobile = intent.getStringExtra("key_mobile")
+            mobile = intent.getStringExtra(KEY_MOBILE)
         }
 
         btnVerifyOtp.setOnClickListener {
