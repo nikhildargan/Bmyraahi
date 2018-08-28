@@ -12,7 +12,7 @@ class Profile {
     var name: String? = null
     @SerializedName("phone")
     @Expose
-    var phone: String? = null
+    var mobile: String? = null
     @SerializedName("website")
     @Expose
     var website: String? = null

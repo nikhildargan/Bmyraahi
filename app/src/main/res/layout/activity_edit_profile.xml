@@ -37,7 +37,7 @@
         android:text="Edit Profile" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/etFirmName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -47,7 +47,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/edit_box"
         android:ems="10"
-        android:hint="Firm Name"
+        android:hint="Name"
         android:inputType="textPersonName"
         android:paddingBottom="8dp"
         android:paddingLeft="8dp"
@@ -58,7 +58,7 @@
 
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/etMobile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -75,10 +75,10 @@
         android:paddingTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintStart_toStartOf="@+id/view7"
-        app:layout_constraintTop_toBottomOf="@+id/editText7" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmail" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/etEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -96,10 +96,10 @@
         app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view7"
-        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+        app:layout_constraintTop_toBottomOf="@+id/etFirmName" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnUpdate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -113,7 +113,7 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintStart_toStartOf="@+id/view7"
-        app:layout_constraintTop_toBottomOf="@+id/editText8" />
+        app:layout_constraintTop_toBottomOf="@+id/etMobile" />
 
     <Button
         android:id="@+id/button7"
@@ -130,5 +130,5 @@
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintStart_toStartOf="@+id/view7"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUpdate" />
 </android.support.constraint.ConstraintLayout>

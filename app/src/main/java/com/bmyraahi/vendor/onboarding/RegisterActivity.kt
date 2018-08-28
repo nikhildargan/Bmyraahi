@@ -11,10 +11,8 @@ import com.bmyraahi.vendor.home.Profile
 import com.bmyraahi.vendor.network.BmrApiInterface
 import com.bmyraahi.vendor.network.BmrApis
 import kotlinx.android.synthetic.main.activity_register.*
-import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.Response
-import javax.security.auth.callback.Callback
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -34,7 +32,7 @@ class RegisterActivity : AppCompatActivity() {
     fun validateUser(): Boolean {
         profile.name = etName.text.toString()
         profile.email = etEmail.text.toString()
-        profile.phone = etMobile.text.toString()
+        profile.mobile = etMobile.text.toString()
 
 
         var selectedRadioButtonID = rgVendorType.getCheckedRadioButtonId();
@@ -51,7 +49,7 @@ class RegisterActivity : AppCompatActivity() {
             profile.role = role
         }
 
-        if (profile.name.isNullOrEmpty() || profile.email.isNullOrEmpty() || profile.phone.isNullOrEmpty()) {
+        if (profile.name.isNullOrEmpty() || profile.email.isNullOrEmpty() || profile.mobile.isNullOrEmpty()) {
             return false
         }
         return true

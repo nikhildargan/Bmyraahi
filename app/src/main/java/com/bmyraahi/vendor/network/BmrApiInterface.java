@@ -38,8 +38,8 @@ public interface BmrApiInterface {
     );
 
 
-  @POST("accounts/register/")
-  Call<Profile> registerUser(@Body Profile profile);
+    @POST("accounts/register/")
+    Call<Profile> registerUser(@Body Profile profile);
 
 
     @GET("cities/")

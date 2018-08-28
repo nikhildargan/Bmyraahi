@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomEditBox">
+        <attr name="ce_title" format="string" />
+        <attr name="ce_hint" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CustomSpinnerLayout">
+        <attr name="cs_title" format="string" />
+        <attr name="cs_hint" format="string" />
+    </declare-styleable>
+</resources>

@@ -63,8 +63,10 @@ class VerifyOtpActivity : AppCompatActivity() {
                         if (response.isSuccessful) {
                             val body = response.body().toString()
                             var jsonObj = JSONObject(body)
-                            prefs.edit().putBoolean(KEY_IS_LOGIN, true)
-                          //  prefs.edit().putString(KEY_TOKEN, "jwt " + jsonObj.getString(KEY))
+                            // get toekn
+                            var token = ""
+                            prefs.edit().putBoolean(KEY_IS_LOGIN, true).apply()
+                            prefs.edit().putString(KEY_TOKEN, "jwt " + jsonObj.getString(token)).apply()
                             // prefs.set[KEY_IS_LOGIN]=true
                             val intent = Intent(this@VerifyOtpActivity, RegisterActivity::class.java)
                             startActivity(intent)
