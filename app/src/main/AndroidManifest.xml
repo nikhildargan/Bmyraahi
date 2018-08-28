@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bmyraahi.vendor">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -41,7 +41,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".account.ProfileActivity" />
         <activity android:name=".account.EditProfileActivity" />
-        <activity android:name=".blockInventory.BlockedActivity"></activity>
+        <activity android:name=".blockInventory.BlockedActivity" />
+        <activity android:name=".inventory.AddInventoryActivity" />
+        <activity android:name=".inventory.InventoryListActivity"></activity>
     </application>
 
 </manifest>
