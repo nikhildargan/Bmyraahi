@@ -10,65 +10,65 @@
         android:background="@color/white"
         android:orientation="vertical">
 
-        <com.bmyraahi.vendor.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomFormLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomFormLayout>
 
-        <com.bmyraahi.vendor.CustomSpinnerLayout
+        <com.bmyraahi.vendor.views.CustomSpinnerLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomSpinnerLayout>
+        </com.bmyraahi.vendor.views.CustomSpinnerLayout>
 
-        <com.bmyraahi.vendor.CustomSpinnerLayout
+        <com.bmyraahi.vendor.views.CustomSpinnerLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomSpinnerLayout>
+        </com.bmyraahi.vendor.views.CustomSpinnerLayout>
 
-        <com.bmyraahi.vendor.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomFormLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomFormLayout>
 
-        <com.bmyraahi.vendor.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomFormLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomFormLayout>
 
-        <com.bmyraahi.vendor.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomFormLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomFormLayout>
 
-        <com.bmyraahi.vendor.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomFormLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomFormLayout>
 
-        <com.bmyraahi.vendor.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomFormLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomFormLayout>
 
-        <com.bmyraahi.vendor.CustomSpinnerLayout
+        <com.bmyraahi.vendor.views.CustomSpinnerLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomSpinnerLayout>
+        </com.bmyraahi.vendor.views.CustomSpinnerLayout>
 
-        <com.bmyraahi.vendor.CustomTimeSpinnersLayout
+        <com.bmyraahi.vendor.views.CustomTimeSpinnersLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.CustomTimeSpinnersLayout>
+        </com.bmyraahi.vendor.views.CustomTimeSpinnersLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -131,8 +131,8 @@
             android:text="or"
             android:textSize="12sp" />
 
-        <com.bmyraahi.vendor.CustomSpinnerLayout
+        <com.bmyraahi.vendor.views.CustomSpinnerLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></com.bmyraahi.vendor.CustomSpinnerLayout>
+            android:layout_height="wrap_content"></com.bmyraahi.vendor.views.CustomSpinnerLayout>
     </LinearLayout>
 </ScrollView>

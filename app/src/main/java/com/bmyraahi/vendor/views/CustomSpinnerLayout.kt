@@ -1,4 +1,4 @@
-package com.bmyraahi.vendor
+package com.bmyraahi.vendor.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,23 +6,22 @@ import android.view.LayoutInflater
 import android.widget.LinearLayout
 import android.widget.Spinner
 import android.widget.TextView
-import kotlinx.android.synthetic.main.layout_custom_time_spinners.view.*
+import com.bmyraahi.vendor.R
+import kotlinx.android.synthetic.main.layout_custom_spinner.view.*
 
 
-class CustomTimeSpinnersLayout @JvmOverloads constructor(
+class CustomSpinnerLayout @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet? = null,
         defStyle: Int = 0
 ) : LinearLayout(context, attrs, defStyle) {
 
       var title : TextView
-     var spHours: Spinner
-     var spMinutes: Spinner
-     var spNight: Spinner
+     var spFields: Spinner
 
     init {
         val view = LayoutInflater.from(context)
-                .inflate(R.layout.layout_custom_time_spinners, this, true)
+                .inflate(R.layout.layout_custom_spinner, this, true)
 
         orientation = VERTICAL
 
@@ -31,9 +30,7 @@ class CustomTimeSpinnersLayout @JvmOverloads constructor(
         }
 
         title = view.tvTitle
-        spHours = view.spHours
-        spMinutes = view.spMinutes
-        spNight = view.spNight
+        spFields = view.spFields
     }
 
 

@@ -1,4 +1,4 @@
-package com.bmyraahi.vendor
+package com.bmyraahi.vendor.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
+import com.bmyraahi.vendor.R
 import kotlinx.android.synthetic.main.layout_custom_edit.view.*
 
 

@@ -10,6 +10,7 @@ import com.bmyraahi.vendor.R
 import com.bmyraahi.vendor.account.ProfileActivity
 import com.bmyraahi.vendor.blockInventory.BlockedActivity
 import com.bmyraahi.vendor.bookings.BookingActivity
+import com.bmyraahi.vendor.price.futurePrice.FuturePriceListActivity
 import com.bmyraahi.vendor.inventory.AddInventoryActivity
 import com.bmyraahi.vendor.payments.PaymentActivity
 import kotlinx.android.synthetic.main.activity_home.*
@@ -28,13 +29,13 @@ class HomeActivity : AppCompatActivity() {
                 when (position) {
                     0 -> launcherIntent = Intent(this@HomeActivity, BookingActivity::class.java)
                     1 -> launcherIntent = Intent(this@HomeActivity, BookingActivity::class.java)
-                    2 -> launcherIntent = Intent(this@HomeActivity, BookingActivity::class.java)
+                    2 -> launcherIntent = Intent(this@HomeActivity, FuturePriceListActivity::class.java)
                     3 -> launcherIntent = Intent(this@HomeActivity, AddInventoryActivity::class.java)
                     4 -> launcherIntent = Intent(this@HomeActivity, BookingActivity::class.java)
                     5 -> launcherIntent = Intent(this@HomeActivity, BlockedActivity::class.java)
                     6 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
-                    7 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
-                    8 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
+                   // 7 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
+                   // 8 -> launcherIntent = Intent(this@HomeActivity, PaymentActivity::class.java)
                     9 -> launcherIntent = Intent(this@HomeActivity, ProfileActivity::class.java)
                     else -> {
                         launcherIntent = Intent(this@HomeActivity, BookingActivity::class.java)
