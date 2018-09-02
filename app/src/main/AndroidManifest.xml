@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".onboarding.SplashActivity"></activity>
+        <activity android:name=".onboarding.SplashActivity" />
         <activity
             android:name=".onboarding.GetOtpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -45,7 +45,8 @@
         <activity android:name=".inventory.AddInventoryActivity" />
         <activity android:name=".inventory.InventoryListActivity" />
         <activity android:name=".price.futurePrice.FuturePriceListActivity" />
-        <activity android:name=".price.PriceListActivity"></activity>
+        <activity android:name=".price.PriceListActivity" />
+        <activity android:name=".price.futurePrice.UpdateActivity"></activity>
     </application>
 
 </manifest>

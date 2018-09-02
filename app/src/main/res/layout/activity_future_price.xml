@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnFuturePrice"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -35,7 +35,7 @@
         android:layout_marginTop="8dp"
         tools:listitem="@layout/item_price"
         app:layoutManager="android.support.v7.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btnFuturePrice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
