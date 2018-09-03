@@ -10,11 +10,11 @@
         android:background="@color/white"
         android:orientation="vertical">
 
-        <com.bmyraahi.vendor.views.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomEditBoxLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.views.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomEditBoxLayout>
 
         <com.bmyraahi.vendor.views.CustomSpinnerLayout
             android:layout_width="match_parent"
@@ -28,35 +28,35 @@
 
         </com.bmyraahi.vendor.views.CustomSpinnerLayout>
 
-        <com.bmyraahi.vendor.views.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomEditBoxLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.views.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomEditBoxLayout>
 
-        <com.bmyraahi.vendor.views.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomEditBoxLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.views.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomEditBoxLayout>
 
-        <com.bmyraahi.vendor.views.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomEditBoxLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.views.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomEditBoxLayout>
 
-        <com.bmyraahi.vendor.views.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomEditBoxLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.views.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomEditBoxLayout>
 
-        <com.bmyraahi.vendor.views.CustomFormLayout
+        <com.bmyraahi.vendor.views.CustomEditBoxLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.bmyraahi.vendor.views.CustomFormLayout>
+        </com.bmyraahi.vendor.views.CustomEditBoxLayout>
 
         <com.bmyraahi.vendor.views.CustomSpinnerLayout
             android:layout_width="match_parent"

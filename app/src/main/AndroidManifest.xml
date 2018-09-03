@@ -46,7 +46,13 @@
         <activity android:name=".inventory.InventoryListActivity" />
         <activity android:name=".price.futurePrice.FuturePriceListActivity" />
         <activity android:name=".price.PriceListActivity" />
-        <activity android:name=".price.futurePrice.UpdateActivity"></activity>
+        <activity android:name=".price.futurePrice.UpdateActivity" />
+        <activity android:name=".price.PriceBikeActivity" />
+        <activity android:name=".price.PriceCarActivity" />
+        <activity android:name=".price.PricePerPaxActivity" />
+        <activity android:name=".price.PricePerItemActivity" />
+        <activity android:name=".price.PriceGuideActivity" />
+        <activity android:name=".price.PriceCampingActivity"></activity>
     </application>
 
 </manifest>

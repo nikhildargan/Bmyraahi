@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey">
+
+    <Button
+        android:id="@+id/btnAddActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/black"
+        android:text="SET PRICE"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        />
+    <ScrollView
+        android:layout_above="@id/btnAddActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:context=".price.PriceBikeActivity">
+
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#de000000"
+                android:textSize="12.7sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Inventory name here" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="No. of person"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/view11"
+                app:layout_constraintStart_toStartOf="@+id/view11"
+                app:layout_constraintTop_toTopOf="@+id/view11" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="4.7sp"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/view11"
+                app:layout_constraintEnd_toStartOf="@+id/textView40"
+                app:layout_constraintStart_toEndOf="@+id/textView38"
+                app:layout_constraintTop_toTopOf="@+id/view11"
+                android:text="Adult" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="4.7sp"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/view11"
+                app:layout_constraintEnd_toEndOf="@+id/view11"
+                app:layout_constraintTop_toTopOf="@+id/view11"
+                android:text="Child" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view11">
+
+                <com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout>
+
+                <com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp">
+
+                </com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout>
+                <com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp">
+
+                </com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout>
+
+                <com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp">
+
+                </com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="368dp"
+                android:layout_height="265dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Set age" />
+
+                <com.bmyraahi.vendor.views.CustomScaleFormLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.bmyraahi.vendor.views.CustomScaleFormLayout>
+
+                <com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.bmyraahi.vendor.views.CustomDoubleEditBoxLayout>
+
+                <com.bmyraahi.vendor.views.CustomScaleFormLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.bmyraahi.vendor.views.CustomScaleFormLayout>
+
+                <View
+                    android:id="@+id/view12"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white" />
+            </LinearLayout>
+
+            <com.bmyraahi.vendor.views.CustomTcLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            </com.bmyraahi.vendor.views.CustomTcLayout>
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>

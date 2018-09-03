@@ -10,18 +10,17 @@ import com.bmyraahi.vendor.R
 import kotlinx.android.synthetic.main.layout_custom_edit.view.*
 
 
-class CustomFormLayout @JvmOverloads constructor(
+class CustomScaleFormLayout @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet? = null,
         defStyle: Int = 0
 ) : LinearLayout(context, attrs, defStyle) {
 
-      var title : TextView
-     var etField: EditText
+
 
     init {
         val view = LayoutInflater.from(context)
-                .inflate(R.layout.layout_custom_edit, this, true)
+                .inflate(R.layout.layout_custom_scale_form_edit, this, true)
 
         orientation = VERTICAL
 
@@ -29,8 +28,7 @@ class CustomFormLayout @JvmOverloads constructor(
 
         }
 
-        title = view.tvTitle
-        etField = view.etField
+
     }
 
 
