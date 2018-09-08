@@ -5,7 +5,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import com.bmyraahi.vendor.R
-import kotlinx.android.synthetic.main.layout_custom_tc.view.*
+import kotlinx.android.synthetic.main.layout_tc.view.*
 
 
 class CustomTcLayout @JvmOverloads constructor(

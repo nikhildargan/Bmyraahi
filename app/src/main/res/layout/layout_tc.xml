@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="4dp"
+    android:orientation="horizontal"
+    tools:showIn="@layout/layout_custom_tc">
+
+    <ImageView
+        android:id="@+id/ivAddTc"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:layout_alignBottom="@id/etField"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/add_more" />
+
+    <EditText
+        android:id="@+id/etField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/empty_box"
+        android:ems="10"
+        android:layout_toLeftOf="@id/ivAddTc"
+        android:hint="Add your T&amp;C"
+        android:inputType="textPersonName"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp" />
+
+
+</RelativeLayout>

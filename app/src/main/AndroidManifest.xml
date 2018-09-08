@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".onboarding.SplashActivity" />
+        <activity
+            android:name=".onboarding.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".onboarding.GetOtpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -22,7 +25,10 @@
         <activity
             android:name=".onboarding.RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".home.HomeActivity">
+        <activity
+            android:name=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,25 +40,69 @@
         <activity
             android:name=".payments.PaymentDetailsActivity"
             android:label="@string/title_activity_payment_details"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".payments.PaymentActivity"
             android:label="@string/title_activity_payment_details"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".account.ProfileActivity" />
-        <activity android:name=".account.EditProfileActivity" />
-        <activity android:name=".blockInventory.BlockedActivity" />
-        <activity android:name=".inventory.AddInventoryActivity" />
-        <activity android:name=".inventory.InventoryListActivity" />
-        <activity android:name=".price.futurePrice.FuturePriceListActivity" />
-        <activity android:name=".price.PriceListActivity" />
-        <activity android:name=".price.futurePrice.UpdateActivity" />
-        <activity android:name=".price.PriceBikeActivity" />
-        <activity android:name=".price.PriceCarActivity" />
-        <activity android:name=".price.PricePerPaxActivity" />
-        <activity android:name=".price.PricePerItemActivity" />
-        <activity android:name=".price.PriceGuideActivity" />
-        <activity android:name=".price.PriceCampingActivity"></activity>
+        <activity
+            android:name=".account.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".account.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".blockInventory.BlockedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".inventory.AddInventoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".inventory.InventoryListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.futurePrice.FuturePriceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PriceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.futurePrice.UpdateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PriceBikeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PriceCarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PricePerPaxActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PricePerItemActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PriceGuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".price.PriceCampingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

@@ -1,12 +1,10 @@
 package com.bmyraahi.vendor.bookings
 
-import android.opengl.Visibility
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bmyraahi.vendor.R
-import com.bmyraahi.vendor.R.id.view
 import kotlinx.android.synthetic.main.item_booking.view.*
 
 class AllBookingAdapter(var items: ArrayList<BookingItem>) : RecyclerView.Adapter<AllBookingAdapter.ViewHolder>() {
