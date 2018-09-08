@@ -15,9 +15,9 @@ class PriceListActivity : AppCompatActivity() {
         button4.setOnClickListener { startActivity(Intent(this@PriceListActivity, PriceBikeActivity::class.java)) }
         button8.setOnClickListener { startActivity(Intent(this@PriceListActivity, PriceCarActivity::class.java)) }
         button9.setOnClickListener { startActivity(Intent(this@PriceListActivity, PricePerPaxActivity::class.java)) }
-        button10.setOnClickListener { startActivity(Intent(this@PriceListActivity, PricePerItemActivity::class.java))}
-        button11.setOnClickListener { startActivity(Intent(this@PriceListActivity, PriceGuideActivity::class.java))}
-        button12.setOnClickListener { startActivity(Intent(this@PriceListActivity, PriceCampingActivity::class.java))}
+        button10.setOnClickListener { startActivity(Intent(this@PriceListActivity, PricePerItemActivity::class.java)) }
+        button11.setOnClickListener { startActivity(Intent(this@PriceListActivity, PriceGuideActivity::class.java)) }
+        button12.setOnClickListener { startActivity(Intent(this@PriceListActivity, PriceCampingActivity::class.java)) }
 
     }
 }
